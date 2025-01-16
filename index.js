@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import tripGenRoutes from "./routes/tripGenRoutes.js";
+import countriesRoutes from "./routes/countriesRoutes.js";
 
 dotenv.config();
 
@@ -14,10 +15,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Use the trip generator routes
 app.get("/", (req, res) => {
   res.send("Server is running");
 });
+app.use("/api", countriesRoutes);
 app.use("/api", tripGenRoutes);
 
 // Start the server
