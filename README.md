@@ -1,10 +1,13 @@
 # TripGPT
 
-TripGPT is an AI-powered travel planning application that helps users generate personalized trip plans based on their selected country and city. The project utilizes advanced AI capabilities to search the internet for relevant travel information and generate a customized itinerary.
+TripGPT is an AI-powered travel planning application that helps users generate personalized trip plans based on their selected country and city. The project utilizes advanced AI capabilities to search the internet for relevant travel information and develop a customized itinerary.
 
 ## Live Demo
 
 Check out the project live at:
+
+![tripgpt](https://github.com/user-attachments/assets/664ea679-8b91-46f5-a64c-39462b758dc2)
+
 
 **Frontend Repository:** [TripGPT Frontend](https://github.com/mfukechristian/TripGPT-frontend)
 
